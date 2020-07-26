@@ -40,6 +40,7 @@ To-do
 ## Installation
 
 - Clone the repo: `git clone https://github.com/mrcogllrdo/PixelShift.git`
+
 To-do
 
 ## Documentation
