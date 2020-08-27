@@ -31,17 +31,29 @@ Note current and planned features are open to change. For example, the cosine si
 
 ## Demo
 
-To-do
+Please feel free to use the provided picture called "demoPic" under the "demo" folder.
 
 ## Prerequisites
 
-To-do
+- NumPy for the stats-heavy operations
+- Pip to make installing stuff like NumPy and Pillow easy (should come already with Python)
+- Pillow for image manipulation
 
 ## Installation
 
-- Clone the repo: `git clone https://github.com/mrcogllrdo/PixelShift.git`
+Clone the repo: `git clone https://github.com/mrcogllrdo/PixelShift.git`
 
-To-do
+Then run
+
+    pip install Pillow    
+    
+to install Pillow, and
+    
+    pip install numpy
+    
+to install NumPy.
+
+We'll be using Tkinter for the GUI.
 
 ## Documentation
 
@@ -53,4 +65,4 @@ Code and documentation copyright 2020 under [PixelShift's author](https://github
 
 ## Acknowledgements and Credits
 
-To-do
+Thanks to Pixabay for allowing me access to royalty-free pics.
