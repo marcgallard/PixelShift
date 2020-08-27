@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/mrcogllrdo/PixelShift">
-    <img src="https://raw.githubusercontent.com/mrcogllrdo/PixelShift/master/fuzzImg.jpg" alt="PixelShift intro" width="630" height="354">
+    <img src="https://raw.githubusercontent.com/mrcogllrdo/PixelShift/master/introImg.jpg" alt="PixelShift intro" width="630" height="354">
   </a>
 </p>
 
