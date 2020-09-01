@@ -14,9 +14,9 @@ def scramImg(): # Main function to scramble image
     result = np.asarray(origImg) # Converts the image to an array of RGB values
     
     if passes > 0 and maxVari > 0:
-        for i in range(passes): # Main scramble function; note could differ for varying file format, should be made generic
-            dummy = np.random.randint(-1 * maxVari, high=maxVari, size=origImg.size)
-            result = np.add(result, dummy.astype("uint8"))
+        for i in range(passes): # Main scramble function; note could differ for varying file format, should be made generic and tested
+            dummy = np.random.randint(-1 * maxVari, high=maxVari, size=result.shape) # This returns an array of noise of the same shape as the given image
+            result = np.add(result, dummy.astype("uint8")) # The noise is superimposed onto the image
             
     newImg = Image.fromarray(result)
     scramTkImg = ImageTk.PhotoImage(newImg) # Convert RGB array to image
