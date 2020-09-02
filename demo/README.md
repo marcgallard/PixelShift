@@ -82,3 +82,11 @@ While it's a bit tough to say what the original image was, the characteristic wa
 This scramble is clearly much better than 10 passes with maxVari 20. So what happened? A more in-depth explanation can be found in the wiki once it's added, but essentially there's a chance every pass you "undo" whatever happened prior. An example is 1 pass with maxVari 3 vs 3 passes with maxVari 1. If the goal is to reach -3 from a starting value of 0 then 1 pass with maxVari 3 has a chance of 1/6 due to (-3, -2, -1, 0, 1, 2), while 3 passes with maxVari 1 has to hit -1 thrice in a row, or 1/8.
 
 Since it's more likely to reach -3 from 1 pass with maxVari 3 than it is from 3 passes with maxVari 1, and 1 pass with maxVari 3 yields a uniform distribution, then the resulting distribution from 3 passes with maxVari 1 will not be uniform.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/mrcogllrdo/PixelShift/master/demo/probGraph.jpg" alt="Probability graph" width="630" height="354">
+</p>
+
+## Conclusion
+
+This was a short demo and discussion of passes vs maxVari. I hope you enjoyed it!
