@@ -31,7 +31,7 @@ Note current and planned features are open to change. For example, the cosine si
 
 ## Demo
 
-Please feel free to use the provided picture called "demoPic" under the "demo" folder.
+Please feel free to check out the demo folder to see the program's current features without running it yourself. There's also a brief discussion for using one of the parameters to scramble your images over the other!
 
 ## Prerequisites
 
