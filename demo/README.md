@@ -12,15 +12,31 @@ Note I am using maxVari (inside the program I refer to it as max RGB diff) to de
 
 Let's start the program. Navigate to where the repo was cloned and change into the gui directory. Once inside run the main.py script. You will be confronted with this screen:
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/mrcogllrdo/PixelShift/master/demo/startSoftware.jpg" alt="Open file" width="630" height="354">
+</p>
+
 Open a file of your choice; for the purposes of this demo, I opened "demoPic.jpg".
 
 ## Initial screen
 
 If successful your window should look identical to this one:
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/mrcogllrdo/PixelShift/master/demo/initialScreen.jpg" alt="Intro screen" width="630" height="354">
+</p>
+
 There are currently four buttons: open, save, scramble, and exit. Opening a file is the same process as the one you were confronted with when starting the program. Saving a file is a bit different requires you to specify the file extension of the file:
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/mrcogllrdo/PixelShift/master/demo/saveScreen.jpg" alt="Save screen" width="630" height="354">
+</p>
+
 "Scramble" takes the image on the left side dictated to be the original image and scrambles it scccording to the parameters set by passes and max RGB diff. Here is an example using passes 1 and max RGB diff 1 as an example:
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/mrcogllrdo/PixelShift/master/demo/scrambleScreen.jpg" alt="Scramble screen" width="630" height="354">
+</p>
 
 Feel free to use other values and images. For the rest of the demo I will continue to use the demo image with another 1 pass example alongside a brief discussion of pass vs max RGB diff, otherwise abbreviated as maxVari.
 
